@@ -12,3 +12,12 @@ body {
   border-top: 10px solid #000000;
   position: relative;
 }
+
+/* SMALLER ELEMENTS */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #000000;
+}
