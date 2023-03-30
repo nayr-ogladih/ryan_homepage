@@ -8,11 +8,17 @@
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 nav {
   font-size: 18px;
+}
+
+nav a:link {
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
 }
 
 article {
@@ -47,10 +53,18 @@ body {
 
 /* SMALLER ELEMENTS */
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000;
+  font-family: sans-serif;
+}
 h1 {
   color: #000000;
   font-size: 52px;
-  font-family: sans-serif;
 }
 
 h2 {
@@ -67,6 +81,10 @@ h4 {
 
 h5 {
   font-size: 24px;
+}
+
+h6 {
+  margin-bottom: 18px;
 }
 
 ul,
@@ -170,13 +188,13 @@ a:link {
 }
 
 a:visited {
-  color: rgb(118, 17, 118);
+  color: #000000;
 }
 
 a:hover {
   color: rgb(118, 17, 118);
   font-weight: bold;
-  text-decoration: underline dotted rgb(118, 17, 118);
+  text-decoration: underline rgb(118, 17, 118);
 }
 
 a:active {
