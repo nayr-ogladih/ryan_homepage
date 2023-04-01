@@ -23,6 +23,22 @@ Large: 1.8
 
 --- 02 COLORS
 
+#f7f7f7
+#000000
+#fe5f55
+#761176
+#444
+
+black to gray to white palette
+#212529
+#343a40
+#495057
+#6c757d
+#adb5bd
+#ced4da
+#dee2e6
+#f8f9fa
+
 - Primary: 
 - Tints: 
 
@@ -35,7 +51,7 @@ Large: 1.8
 
 --- 05 SHADOWS
 
-0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
 
 --- 06 BORDER-RADIUS
 
