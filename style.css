@@ -50,7 +50,8 @@ nav a:link:last-child {
 }
 
 article {
-  margin-bottom: 60px;
+  flex: 1;
+  margin-bottom: 0;
 }
 
 .post-header {
@@ -261,4 +262,7 @@ button:hover {
 
 .row {
   display: flex;
+  align-items: flex-start;
+  gap: 75px;
+  margin-bottom: 60px;
 }
