@@ -32,6 +32,7 @@ body {
 
 nav {
   font-size: 18px;
+  font-weight: bold;
 }
 
 nav a:link {
@@ -82,6 +83,19 @@ h1 {
 
 h2 {
   font-size: 44px;
+  margin-bottom: 12px;
+  font-weight: 500;
+  color: #f7f7f7;
+  letter-spacing: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+h2:hover {
+  color: #fff;
+  text-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
 }
 
 h3 {
@@ -98,18 +112,15 @@ h5 {
 
 h6 {
   margin-bottom: 18px;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 ul,
 ol {
   margin-left: 50px;
   margin-bottom: 20px;
-}
-
-h6 {
-  font-size: 20px;
-  text-transform: uppercase;
-  text-align: center;
 }
 
 p {
@@ -136,6 +147,8 @@ li:last-child {
 }
 
 .author-box {
+  margin-bottom: 24px;
+
   display: flex;
   align-items: center;
 }
@@ -234,7 +247,7 @@ a:hover {
 }
 
 a:active {
-  background-color: rgb(118, 17, 118);
+  background-color: #761176;
   font-style: italic;
 }
 
@@ -265,4 +278,10 @@ button:hover {
   align-items: flex-start;
   gap: 75px;
   margin-bottom: 60px;
+}
+
+.graduation {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
 }

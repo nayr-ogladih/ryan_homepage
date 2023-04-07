@@ -1,3 +1,5 @@
+"""UNDER CONSTRUCTION"""
+
 MENU_PROMPT = "\nSimple calculator program. Please select an option: \n1) Addition \n2) Subtraction \n3) Multiplication \n4) Division \n5) Exit Application\n"
 
 def addition():
