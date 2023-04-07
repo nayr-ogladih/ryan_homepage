@@ -85,7 +85,7 @@ h2 {
   font-size: 44px;
   margin-bottom: 12px;
   font-weight: 500;
-  color: #f7f7f7;
+  color: #adb5bd;
   letter-spacing: 5px;
   cursor: pointer;
   text-transform: uppercase;
@@ -93,7 +93,7 @@ h2 {
 }
 
 h2:hover {
-  color: #fff;
+  color: #f7f7f7;
   text-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
     0 0 100px #03e9f4;
 }
@@ -280,8 +280,40 @@ button:hover {
   margin-bottom: 60px;
 }
 
+.currentprojects {
+  display: grid;
+  grid-template-columns: repeat(, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
 .graduation {
   margin-bottom: 24px;
   display: flex;
   align-items: center;
+}
+
+.threepics {
+  overflow: hidden;
+}
+
+.threepics img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.threepics img:hover {
+  transform: scale(1.1);
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
 }
