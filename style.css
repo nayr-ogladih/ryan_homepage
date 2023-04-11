@@ -33,6 +33,8 @@ body {
 nav {
   font-size: 18px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
 }
 
 nav a:link {
@@ -280,12 +282,13 @@ button:hover {
   margin-bottom: 60px;
 }
 
-.currentprojects {
+/*STILL FIXING*/
+/* .currentprojects {
   display: grid;
   grid-template-columns: repeat(, 1fr);
   gap: 1.6rem;
   padding: 1.6rem;
-}
+} */
 
 .graduation {
   margin-bottom: 24px;
