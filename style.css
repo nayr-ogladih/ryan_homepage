@@ -300,9 +300,12 @@ button:hover {
   overflow: hidden;
 }
 
+.threepics p {
+  margin-bottom: 0;
+}
+
 .threepics img {
-  display: block;
-  width: 100%;
+  max-width: 100%;
   transition: all 0.4s;
 }
 
